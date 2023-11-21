@@ -1,0 +1,8 @@
+WP finance Plugin Feature:
+
+1. Generate Invoice on booking completed.
+2. Generate Sale report in every 3 days interval.
+3. Dropbox API.
+4. Generate PDF.
+5. Database.
+6. WooCommerce & Wc booking hook
