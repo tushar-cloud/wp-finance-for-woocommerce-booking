@@ -1,0 +1,504 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Finance for Woocommerce Booking\n"
+"POT-Creation-Date: 2021-08-25 16:47+0600\n"
+"PO-Revision-Date: 2021-05-23 18:02+0600\n"
+"Last-Translator: \n"
+"Language-Team: Abubakar Wazih Tushar <https://www.freelancer.com/u/"
+"zabubakar>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/invoice-table.php:38
+msgid "Invoices"
+msgstr ""
+
+#: includes/admin/invoice-table.php:73 includes/admin/log-table.php:73
+msgid "ID"
+msgstr ""
+
+#: includes/admin/invoice-table.php:74 includes/admin/log-table.php:74
+msgid "Date"
+msgstr ""
+
+#: includes/admin/invoice-table.php:75 includes/admin/log-table.php:75
+msgid "Backup Status"
+msgstr ""
+
+#: includes/admin/invoice-table.php:76
+msgid "Booking ID"
+msgstr ""
+
+#: includes/admin/invoice-table.php:77
+msgid "Order ID"
+msgstr ""
+
+#: includes/admin/invoice-table.php:78 includes/admin/log-table.php:77
+msgid "Backup Date"
+msgstr ""
+
+#: includes/admin/invoice-table.php:79 includes/admin/log-table.php:78
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/invoice-table.php:441 includes/admin/loader.php:196
+msgid "Invalid Start Date"
+msgstr ""
+
+#: includes/admin/invoice-table.php:449 includes/admin/loader.php:204
+msgid "Invalid End Date"
+msgstr ""
+
+#: includes/admin/invoice-table.php:454 includes/admin/loader.php:209
+msgid "Start date and End Date is required"
+msgstr ""
+
+#: includes/admin/invoice-table.php:458 includes/admin/loader.php:213
+msgid "End date must be greater than start date"
+msgstr ""
+
+#: includes/admin/invoice-table.php:470 includes/admin/loader.php:225
+msgid "Invoice Jounal Generated"
+msgstr ""
+
+#: includes/admin/invoice-table.php:472 includes/admin/loader.php:227
+msgid "No invoices Found"
+msgstr ""
+
+#: includes/admin/invoice-table.php:477 includes/core/generate.php:661
+msgid "Invoice Journal"
+msgstr ""
+
+#: includes/admin/invoice-table.php:480 includes/admin/loader.php:235
+msgid "Start Date"
+msgstr ""
+
+#: includes/admin/invoice-table.php:483 includes/admin/loader.php:238
+msgid "End Date"
+msgstr ""
+
+#: includes/admin/invoice-table.php:499 includes/admin/log-table.php:462
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: includes/admin/invoice-table.php:577 includes/admin/log-table.php:540
+msgid "Search"
+msgstr ""
+
+#: includes/admin/loader.php:47
+msgid "Invoices - Finance for Woocommerce Booking"
+msgstr ""
+
+#: includes/admin/loader.php:48
+msgid "Sale Reports - Finance for Woocommerce Booking"
+msgstr ""
+
+#: includes/admin/loader.php:49
+msgid "Log Reports - Finance for Woocommerce Booking"
+msgstr ""
+
+#: includes/admin/loader.php:50
+msgid "Settings - Finance for Woocommerce Booking"
+msgstr ""
+
+#: includes/admin/loader.php:232 includes/admin/loader.php:339
+#: includes/core/generate.php:567
+msgid "Sale Report"
+msgstr ""
+
+#: includes/admin/loader.php:271
+msgid "Global"
+msgstr ""
+
+#: includes/admin/loader.php:274
+msgid "Dropbox Access Token"
+msgstr ""
+
+#: includes/admin/loader.php:275
+#, php-format
+msgid ""
+"Enter Dropbox Access Token. %s. Make sure you have enabled %s %s %s %s "
+"permission & Set %s as %s before Generate Access Token"
+msgstr ""
+
+#: includes/admin/loader.php:275
+msgid "Click here to create Dropbox App"
+msgstr ""
+
+#: includes/admin/loader.php:278
+msgid "Invoice Header Logo"
+msgstr ""
+
+#: includes/admin/loader.php:279
+#, php-format
+msgid "Only %s image are allowed"
+msgstr ""
+
+#: includes/admin/loader.php:281
+msgid "Change"
+msgstr ""
+
+#: includes/admin/loader.php:284 templates/invoices.php:50
+msgid "Company Info"
+msgstr ""
+
+#: includes/admin/loader.php:285
+msgid "This info will show on Invoice company info section"
+msgstr ""
+
+#: includes/admin/loader.php:289
+msgid "Bottom Left Info"
+msgstr ""
+
+#: includes/admin/loader.php:290
+msgid "This info will show on Invoice bottom left side"
+msgstr ""
+
+#: includes/admin/loader.php:295
+msgid "Bottom Right Info"
+msgstr ""
+
+#: includes/admin/loader.php:296
+msgid "This info will show on Invoice bottom right side"
+msgstr ""
+
+#: includes/admin/loader.php:303 includes/core/generate.php:471
+msgid "Invoice"
+msgstr ""
+
+#: includes/admin/loader.php:306 includes/admin/loader.php:342
+msgid "Order Status"
+msgstr ""
+
+#: includes/admin/loader.php:307 includes/admin/loader.php:315
+#: includes/admin/loader.php:343
+#, php-format
+msgid ""
+"Select which order statuses will generate %s. Leave blank for any status."
+msgstr ""
+
+#: includes/admin/loader.php:314
+msgid "Booking Status"
+msgstr ""
+
+#: includes/admin/loader.php:322
+msgid "Show SKU Info"
+msgstr ""
+
+#: includes/admin/loader.php:323
+msgid "Check, if you want to show SKU info in invoice"
+msgstr ""
+
+#: includes/admin/loader.php:327
+msgid "Show Variation Info"
+msgstr ""
+
+#: includes/admin/loader.php:328
+msgid "Check, if you want to show Variation info in invoice"
+msgstr ""
+
+#: includes/admin/loader.php:332
+msgid "Show Booking ID"
+msgstr ""
+
+#: includes/admin/loader.php:333
+msgid "Check, if you want to show Booking ID in invoice"
+msgstr ""
+
+#: includes/admin/loader.php:449
+msgid "Settings saved."
+msgstr ""
+
+#: includes/admin/loader.php:451 includes/admin/loader.php:464
+msgid "Invalid form submitted."
+msgstr ""
+
+#: includes/admin/loader.php:458
+msgid "Reset successfully"
+msgstr ""
+
+#: includes/admin/loader.php:461
+msgid "Failed to Reset."
+msgstr ""
+
+#: includes/admin/loader.php:468 includes/core/autoload.php:914
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/loader.php:472
+msgid "ERROR:"
+msgstr ""
+
+#: includes/admin/loader.php:478
+msgid "SUCCESS:"
+msgstr ""
+
+#: includes/admin/loader.php:547
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/loader.php:559
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/loader.php:561
+msgid "Reset"
+msgstr ""
+
+#: includes/admin/log-table.php:38
+msgid "Log"
+msgstr ""
+
+#: includes/admin/log-table.php:76
+msgid "Type"
+msgstr ""
+
+#: includes/core/autoload.php:929 index.php:42
+#, php-format
+msgid ""
+"\"WP Finance for Woocommerce Booking\" requires WooCommerce to be installed "
+"and active. You can download %s here."
+msgstr ""
+
+#: includes/core/autoload.php:936 index.php:49
+#, php-format
+msgid ""
+"\"WP Finance for Woocommerce Booking\" requires WooCommerce Booking to be "
+"installed and active. You can purchase %s here."
+msgstr ""
+
+#: includes/core/generate.php:203 includes/core/generate.php:296
+#: includes/core/generate.php:389
+msgid "Updated report not backed up, Click on the Backup button to backup "
+msgstr ""
+
+#: includes/core/generate.php:450 includes/core/generate.php:546
+#: includes/core/generate.php:640 templates/sale.php:45
+msgid "Vat"
+msgstr ""
+
+#: includes/core/generate.php:472 includes/core/generate.php:568
+#: includes/core/generate.php:662
+msgid "Page {PAGENO} of {nbpg}"
+msgstr ""
+
+#: templates/html-order-fee.php:7
+msgid "Fee"
+msgstr ""
+
+#: templates/html-order-item.php:18
+msgid "Booking:"
+msgstr ""
+
+#: templates/html-order-item.php:23
+msgid "SKU:"
+msgstr ""
+
+#: templates/html-order-item.php:27
+msgid "Variation ID:"
+msgstr ""
+
+#: templates/html-order-item.php:31
+#, php-format
+msgid "%s (No longer exists)"
+msgstr ""
+
+#: templates/html-order-item.php:100
+#, php-format
+msgid "Refunded &mdash; %s"
+msgstr ""
+
+#: templates/html-order-refund.php:12
+#, php-format
+msgid "Refund #%1$s - %2$s by %3$s"
+msgstr ""
+
+#: templates/html-order-refund.php:17
+#, php-format
+msgid "ID: %d"
+msgstr ""
+
+#: templates/html-order-refund.php:23
+#, php-format
+msgid "Refund #%1$s - %2$s"
+msgstr ""
+
+#: templates/html-order-shipping.php:7
+msgid "Shipping"
+msgstr ""
+
+#: templates/invoices.php:43
+#, php-format
+msgid "Invoice %s"
+msgstr ""
+
+#: templates/invoices.php:44
+#, php-format
+msgid "Invoice date: %s"
+msgstr ""
+
+#: templates/invoices.php:45
+#, php-format
+msgid "Order date: %s"
+msgstr ""
+
+#: templates/invoices.php:46
+#, php-format
+msgid "Order number: %d"
+msgstr ""
+
+#: templates/invoices.php:47
+#, php-format
+msgid "Payment method: %s"
+msgstr ""
+
+#: templates/invoices.php:56
+msgid "To"
+msgstr ""
+
+#: templates/invoices.php:71
+msgid "Item"
+msgstr ""
+
+#: templates/invoices.php:72
+msgid "Cost"
+msgstr ""
+
+#: templates/invoices.php:73
+msgid "Qty"
+msgstr ""
+
+#: templates/invoices.php:74 templates/sale.php:41
+msgid "Discount"
+msgstr ""
+
+#: templates/invoices.php:79 templates/invoices.php:80
+msgid "Tax"
+msgstr ""
+
+#: templates/invoices.php:81
+#, php-format
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: templates/invoices.php:90 templates/journal.php:105 templates/sale.php:129
+msgid "Total"
+msgstr ""
+
+#: templates/invoices.php:125
+msgid "Coupon(s)"
+msgstr ""
+
+#: templates/invoices.php:141
+msgid "Items Subtotal:"
+msgstr ""
+
+#: templates/invoices.php:147
+msgid "Coupon(s):"
+msgstr ""
+
+#: templates/invoices.php:156
+msgid "Fees:"
+msgstr ""
+
+#: templates/invoices.php:165
+msgid "Shipping:"
+msgstr ""
+
+#: templates/invoices.php:184
+msgid "Order Total"
+msgstr ""
+
+#: templates/invoices.php:193
+msgid "Paid"
+msgstr ""
+
+#: templates/invoices.php:204
+#, php-format
+msgid "%1$s via %2$s"
+msgstr ""
+
+#: templates/invoices.php:218
+msgid "Refunded"
+msgstr ""
+
+#: templates/invoices.php:223
+msgid "Net Payment"
+msgstr ""
+
+#: templates/journal.php:33
+msgid "Invoice No."
+msgstr ""
+
+#: templates/journal.php:34 templates/sale.php:39
+msgid "Order No."
+msgstr ""
+
+#: templates/journal.php:35
+msgid "Invoice Date"
+msgstr ""
+
+#: templates/journal.php:36
+msgid "Customer Info"
+msgstr ""
+
+#: templates/journal.php:37
+msgid "Total Before Vat"
+msgstr ""
+
+#: templates/sale.php:40
+msgid "Bookable Product"
+msgstr ""
+
+#: templates/sale.php:42
+msgid "Accessories Non-Vatable"
+msgstr ""
+
+#: templates/sale.php:43
+msgid "Accessories Vatable"
+msgstr ""
+
+#: templates/sale.php:44
+msgid "Prepayout"
+msgstr ""
+
+#: templates/sale.php:46
+msgid "Stripe Fee"
+msgstr ""
+
+#: templates/sale.php:47
+msgid "Stripe"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Finance for Woocommerce Booking"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.freelancer.com/u/zabubakar"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Automatically generate invoices for Booking Order and sale report with "
+"Dropbox as backup file storage"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Abubakar Wazih Tushar"
+msgstr ""

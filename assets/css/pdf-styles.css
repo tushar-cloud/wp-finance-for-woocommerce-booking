@@ -1,0 +1,199 @@
+/**
+* Css for generated PDF
+* This file can be overridden by copying it to yourtheme/css/sale.php
+* @version 1.1
+**/
+
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+p {
+	margin: 0px;
+	line-height: 1.5;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+table td, table td {
+	line-height: 1.5;
+	vertical-align: top;
+}
+.header {
+	font-size: 9px;
+}
+.footer {
+	font-style: normal;
+	font-size: 9px;
+}
+.refund {
+	color: #ff0000;
+	font-size: small;
+}
+
+/*
+* Invoice style
+*/
+.invoice {
+	border: 0.2mm solid #dee2e6;
+}
+.invoice .invoice-head {
+	border-bottom: 0.2mm solid #dee2e6;
+}
+.invoice .invoice-head table tr td.logo {
+	border-bottom: 0.2mm solid #dee2e6;
+	text-align: center;
+	padding: 15px 10px;
+}
+.invoice .invoice-head table tr:nth-child(2) td {
+	width: 33.333%;
+	padding: 10px;
+}
+.invoice .invoice-body .products {
+	border-top: 0.2mm solid #dee2e6;
+	border-bottom: 0.2mm solid #dee2e6;
+}
+.invoice .invoice-body .products tr td {
+	text-align: right;
+}
+.invoice .invoice-body .products tr td:nth-child(1) {
+	text-align: left;
+}
+.invoice .invoice-body .products thead tr td {
+	background-color: #EEEEEE;
+	border-bottom: 0.2mm solid #dee2e6;
+	padding: 5px 10px;
+}
+.invoice .invoice-body .products td {
+	padding: 10px;
+	font-size: 95%;
+}
+.invoice .invoice-body .products tfoot td {
+	border-top: 0.2mm solid #dee2e6;
+	background-color: #fafafa;
+}
+.invoice .invoice-body .shipping-cost tr td {
+	width: 50%;
+	text-align: right;
+	border-top: 0px;
+}
+.invoice .invoice-body .shipping-cost tr td:nth-child(1) {
+	text-align: left;
+}
+.invoice .invoice-body .shipping-cost td {
+	padding: 5px 10px;
+}
+.invoice .invoice-body .shipping-cost .order-detials thead td {
+	border-top: 0px;
+}
+.invoice .invoice-body .shipping-cost .order-detials tbody tr.firstrow td {
+	border-top: 0.2mm solid #dee2e6;
+}
+.invoice .invoice-body .shipping-cost .order-detials thead tr td, .invoice .invoice-body .shipping-cost .order-detials tbody tr td {
+	padding-right: 0;
+}
+.invoice .invoice-body .shipping-cost .order-detials thead tr td:nth-child(1), .invoice .invoice-body .shipping-cost .order-detials tbody tr td:nth-child(1) {
+	text-align: right;
+	width: 70%;
+	padding-left: 0;
+}
+.invoice .invoice-footer {
+	border-top: 0.2mm solid #dee2e6;
+}
+.invoice .invoice-footer table tr td {
+	width: 50%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0;
+	padding-right: 10px;
+}
+.invoice .invoice-footer table tr td:nth-child(1) {
+	padding-right: 0px;
+	padding-left: 10px;
+}
+
+/*
+* Sale report style
+*/
+.sale {
+	border: 0.2mm solid #dee2e6;
+}
+.sale .sale-head {
+	border-bottom: 0.2mm solid #dee2e6;
+}
+.sale .sale-head table tr td.logo {
+	border-bottom: 0.2mm solid #dee2e6;
+	text-align: center;
+	padding: 15px 10px;
+}
+.sale .sale-head table tr:nth-child(2) td {
+	width: 33.333%;
+	padding: 10px;
+}
+.sale .sale-body .orders {
+	border-top: 0.2mm solid #dee2e6;
+	border-bottom: 0.2mm solid #dee2e6;
+}
+.sale .sale-body .orders thead tr td, .sale .sale-body .orders tr td {
+	text-align: right;
+}
+.sale .sale-body .orders thead tr td:nth-child(1), .sale .sale-body .orders tr td:nth-child(1) {
+	text-align: left;
+}
+.sale .sale-body .orders thead td {
+	background-color: #EEEEEE;
+	border-bottom: 0.2mm solid #dee2e6;
+	padding: 5px 10px;
+}
+.sale .sale-body .orders td {
+	padding: 10px;
+	font-size: 95%;
+}
+.sale .sale-body .orders tfoot td {
+	border-top: 0.2mm solid #dee2e6;
+	background-color: #EEEEEE;
+}
+
+/*
+* Invoice Journal style
+*/
+.journal {
+	border: 0.2mm solid #dee2e6;
+}
+.journal .journal-head {
+	border-bottom: 0.2mm solid #dee2e6;
+}
+.journal .journal-head table tr td.logo {
+	border-bottom: 0.2mm solid #dee2e6;
+	text-align: center;
+	padding: 15px 10px;
+}
+.journal .journal-head table tr:nth-child(2) td {
+	width: 33.333%;
+	padding: 10px;
+}
+.journal .journal-body .orders {
+	border-top: 0.2mm solid #dee2e6;
+	border-bottom: 0.2mm solid #dee2e6;
+}
+.journal .journal-body .orders thead tr td, .journal .journal-body .orders tr td {
+	text-align: right;
+}
+.journal .journal-body .orders thead tr td:nth-child(1), .journal .journal-body .orders tr td:nth-child(1) {
+	text-align: left;
+}
+.journal .journal-body .orders thead td {
+	background-color: #EEEEEE;
+	border-bottom: 0.2mm solid #dee2e6;
+	padding: 5px 10px;
+}
+.journal .journal-body .orders td {
+	padding: 10px;
+	font-size: 95%;
+}
+.journal .journal-body .orders tfoot td {
+	border-top: 0.2mm solid #dee2e6;
+	background-color: #EEEEEE;
+}
